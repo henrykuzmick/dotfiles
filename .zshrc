@@ -1,25 +1,30 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/henrikas/.oh-my-zsh
+export ZSH_CUSTOM=$HOME/.zsh
 export PROJECTS=~/workspace
 
-export PATH="$PATH:/usr/local/share/python/"
 export PATH="$PATH:$HOME/workspace/dotfiles/bin"
 export PATH="$PATH:/usr/local/mysql/bin"
 
-source $ZSH/oh-my-zsh.sh
-source $HOME/.zsh/aliases.zsh
-source $HOME/.zsh/prompt.zsh
-
-# ZSH_THEME="agnoster"
-
-# setopt PROMPT_SUBST
-
-plugins=(
-  zsh-autosuggestions
-)
+source $ZSH_CUSTOM/antigen.zsh
+source $ZSH_CUSTOM/aliases.zsh
 
 
-fpath=($HOME/.zsh/functions $fpath)
-autoload -U $HOME/.zsh/functions/*(:t)
+antigen use oh-my-zsh
+antigen bundle git
+antigen bundle heroku
+antigen bundle pip
+antigen bundle lein
+antigen bundle command-not-found
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle mafredri/zsh-async
+antigen bundle sindresorhus/pure
+# antigen bundle arialdomartini/oh-my-git
+# antigen theme arialdomartini/oh-my-git-themes oppa-lana-style
+
+antigen apply
+
+fpath=($ZSH_CUSTOM/functions $fpath)
+autoload -U $ZSH_CUSTOM/functions/*(:t)
 for topic_folder ($ZSH/*) if [ -d $topic_folder ]; then  fpath=($topic_folder $fpath); fi;
 
