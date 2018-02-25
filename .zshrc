@@ -10,7 +10,7 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.zsh/aliases.zsh
 source $HOME/.zsh/prompt.zsh
 
-# ZSH_THEME="robbyrussell"
+# ZSH_THEME="agnoster"
 
 # setopt PROMPT_SUBST
 
