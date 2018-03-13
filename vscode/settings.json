@@ -1,2 +1,10 @@
 {
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "One Monokai",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "Inconsolata",
+    "editor.fontSize": 14,
+    "editor.renderIndentGuides": false,
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
 }
