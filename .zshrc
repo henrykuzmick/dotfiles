@@ -30,3 +30,4 @@ fpath=($ZSH_CUSTOM/functions $fpath)
 autoload -U $ZSH_CUSTOM/functions/*(:t)
 for topic_folder ($ZSH/*) if [ -d $topic_folder ]; then  fpath=($topic_folder $fpath); fi;
 
+eval "$(rbenv init -)"
