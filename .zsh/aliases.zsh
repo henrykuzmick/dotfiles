@@ -20,6 +20,10 @@ alias gstp='git stash pop'
 alias gstl='git stash list'
 alias gsta='git stash apply'
 
+# NODE
+alias npmpublic="npm config set registry https://registry.npmjs.org/ && npm config get registry"
+alias npmprivate="npm config set registry http://npm.dev.wixpress.com && npm config get registry"
+
 # MAC OS X
 alias lock="/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine"
 alias out='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
