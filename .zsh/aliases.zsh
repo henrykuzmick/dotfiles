@@ -20,17 +20,6 @@ alias gstp='git stash pop'
 alias gstl='git stash list'
 alias gsta='git stash apply'
 
-# BUNDLER
-alias b='bundle'
-alias be='b exec'
-alias bea='be autotest -c'
-alias brake='bin/rake'
-alias brspec='bin/rspec'
-alias brails='bin/rails'
-
-# ATOM
-alias a='atom .'
-
 # MAC OS X
 alias lock="/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine"
 alias out='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
