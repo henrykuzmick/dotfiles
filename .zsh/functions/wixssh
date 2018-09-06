@@ -1,0 +1,1 @@
+ssh -i ~/.ssh/id_rsa_wix henrikask@$1 -p 41278
