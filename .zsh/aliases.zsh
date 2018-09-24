@@ -24,12 +24,24 @@ alias gsta='git stash apply'
 alias npmpublic="npm config set registry https://registry.npmjs.org/ && npm config get registry"
 alias npmprivate="npm config set registry http://npm.dev.wixpress.com && npm config get registry"
 
+# DOCKER
+alias dc="docker-compose"
+alias dcup="docker-compose up"
+alias dcs="docker-compose stop"
+alias dcb="docker-compose build"
+
+# WIX
+alias cmm="c app-market/membership/membership-tpa; nvm use;"
+alias cmmt="c app-market/membership/membership-tpa-translations"
+
+# NPM
+alias ns="npm run start"
+alias nt="npm run test"
+alias nb="npm run build"
+
 # MAC OS X
 alias lock="/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine"
 alias out='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
-
-# LINES OF CODE
-alias lr='find . -name "*.rb" -print | xargs wc -l | tail -n 1'
 
 # AWESOME
 alias flol='fortune | lolcat'
