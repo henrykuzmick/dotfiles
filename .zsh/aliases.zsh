@@ -20,10 +20,6 @@ alias gstp='git stash pop'
 alias gstl='git stash list'
 alias gsta='git stash apply'
 
-# NODE
-alias npmpublic="npm config set registry https://registry.npmjs.org/ && npm config get registry"
-alias npmprivate="npm config set registry http://npm.dev.wixpress.com && npm config get registry"
-
 # DOCKER
 alias dc="docker-compose"
 alias dcup="docker-compose up"
@@ -35,9 +31,12 @@ alias cmm="c app-market/membership/membership-tpa; nvm use;"
 alias cmmt="c app-market/membership/membership-tpa-translations"
 
 # NPM
-alias ns="npm run start"
-alias nt="npm run test"
-alias nb="npm run build"
+alias npmpublic="npm config set registry https://registry.npmjs.org/ && npm config get registry"
+alias npmprivate="npm config set registry http://npm.dev.wixpress.com && npm config get registry"
+alias npmnx="rm -rf node_modules package-lock.json"
+alias npms="npm run start"
+alias npmt="npm run test"
+alias npmb="npm run build"
 
 # MAC OS X
 alias lock="/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine"
