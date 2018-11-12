@@ -26,6 +26,9 @@ alias dcup="docker-compose up"
 alias dcs="docker-compose stop"
 alias dcb="docker-compose build"
 
+# PINE
+alias cpine "c pine; nvm use;"
+
 # WIX
 alias cmm="c app-market/membership/membership-tpa; nvm use;"
 alias cmmt="c app-market/membership/membership-tpa-translations"
@@ -34,13 +37,15 @@ alias cmmt="c app-market/membership/membership-tpa-translations"
 alias npmpublic="npm config set registry https://registry.npmjs.org/ && npm config get registry"
 alias npmprivate="npm config set registry http://npm.dev.wixpress.com && npm config get registry"
 alias npmnx="rm -rf node_modules package-lock.json"
+alias npmr="npm run"
 alias npms="npm run start"
 alias npmt="npm run test"
 alias npmb="npm run build"
+alias npmi="npm install"
 
 # MAC OS X
 alias lock="/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine"
 alias out='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
 
 # AWESOME
-alias flol='fortune | lolcat'
+alias flol='fortune | cowsay | lolcat'
