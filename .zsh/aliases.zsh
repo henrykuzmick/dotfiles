@@ -30,8 +30,9 @@ alias dcb="docker-compose build"
 alias cpine "c pine; nvm use;"
 
 # WIX
-alias cmm="c app-market/membership/membership-tpa; nvm use;"
-alias cmmt="c app-market/membership/membership-tpa-translations"
+alias cpp="c app-market/membership/membership-tpa; nvm use;"
+alias cppt="c app-market/membership/membership-tpa-translations"
+alias cma="c app-market/members-area/members-area-app; nvm use;"
 
 # NPM
 alias npmpublic="npm config set registry https://registry.npmjs.org/ && npm config get registry"
