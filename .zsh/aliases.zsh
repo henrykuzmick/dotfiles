@@ -25,6 +25,9 @@ alias dc="docker-compose"
 alias dcup="docker-compose up"
 alias dcs="docker-compose stop"
 alias dcb="docker-compose build"
+alias d="docker"
+alias dps="docker ps"
+alias ds="docker stop $(docker ps -aq)"
 
 # PINE
 alias cpine "c pine; nvm use;"
