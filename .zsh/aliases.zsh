@@ -19,6 +19,7 @@ alias gst='git stash'
 alias gstp='git stash pop'
 alias gstl='git stash list'
 alias gsta='git stash apply'
+alias g="git"
 
 # DOCKER
 alias dc="docker-compose"
