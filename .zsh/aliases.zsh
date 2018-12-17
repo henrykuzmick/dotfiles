@@ -25,12 +25,12 @@ alias dc="docker-compose"
 alias dcup="docker-compose up"
 alias dcs="docker-compose stop"
 alias dcb="docker-compose build"
-alias d="docker"
 alias dps="docker ps"
 alias ds="docker stop $(docker ps -aq)"
+alias d="docker"
 
 # PINE
-alias cpine "c pine; nvm use;"
+alias cpine="c pine; nvm use;"
 
 # WIX
 alias cpp="c app-market/membership/membership-tpa; nvm use;"
