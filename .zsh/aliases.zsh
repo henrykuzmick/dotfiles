@@ -28,7 +28,7 @@ alias dcs="docker-compose stop"
 alias dcb="docker-compose build"
 alias dps="docker ps"
 alias ds="docker stop $(docker ps -aq)"
-alias dkill="docker kill $(docker ps -q)"
+alias dk="docker kill $(docker ps -q)"
 alias d="docker"
 
 # PINE
