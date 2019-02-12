@@ -49,6 +49,9 @@ alias npmt="npm run test"
 alias npmb="npm run build"
 alias npmi="npm install"
 
+# JEST
+alias j="jest"
+
 # MAC OS X
 alias lock="/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine"
 alias out='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
