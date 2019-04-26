@@ -38,6 +38,7 @@ alias cpine="c pine; nvm use;"
 alias cpp="c app-market/membership/membership-tpa; nvm use;"
 alias cppt="c app-market/membership/membership-tpa-translations"
 alias cma="c app-market/members-area/members-area-app; nvm use;"
+alias cbd="c app-market/badges/members-badge-definitions-bm-client; nvm use;"
 
 # NPM
 alias npmpublic="npm config set registry https://registry.npmjs.org/ && npm config get registry"
@@ -51,6 +52,10 @@ alias npmi="npm install"
 
 # JEST
 alias j="jest"
+
+# K8S
+alias k="kubectl"
+alias mk="minikube"
 
 # MAC OS X
 alias lock="/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine"
