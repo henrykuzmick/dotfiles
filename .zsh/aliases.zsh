@@ -30,6 +30,7 @@ alias dps="docker ps"
 alias ds="docker stop $(docker ps -aq)"
 alias dk="docker kill $(docker ps -q)"
 alias d="docker"
+alias dclean="docker stop $(docker ps -qa) && docker rm $(docker ps -qa) && docker rmi -f $(docker images -qa) && docker volume rm $(docker volume ls -qf)  && docker network rm $(docker network ls -q)"
 
 # PINE
 alias cpine="c pine; nvm use;"
@@ -49,6 +50,7 @@ alias npms="npm run start"
 alias npmt="npm run test"
 alias npmb="npm run build"
 alias npmi="npm install"
+alias npmnxbl="npmnx && npmi"
 
 # JEST
 alias j="jest"
