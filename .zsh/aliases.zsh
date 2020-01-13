@@ -42,7 +42,7 @@ alias cppt="c app-market/membership/membership-tpa-translations"
 alias cma="c app-market/members-area/members-area-app; nvm use;"
 alias cbd="c app-market/badges/members-badge-definitions-bm-client; nvm use;"
 alias csub="c app-market/subscriptions/subscriptions-bm; nvm use;"
-alias csut="c app-market/subscriptions/subscriptions-bm-translations"
+alias csubt="c app-market/subscriptions/subscriptions-bm-translations"
 
 # NPM
 alias npmpublic="npm config set registry https://registry.npmjs.org/ && npm config get registry"
