@@ -2,8 +2,16 @@
 export ZSH_CUSTOM=$HOME/.zsh
 export PROJECTS=~/workspace
 
+
 export PATH="$PATH:$HOME/workspace/dotfiles/bin"
 export PATH="$PATH:/usr/local/mysql/bin"
+
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export ANDROID_SDK=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_SDK/emulator
+export PATH=$PATH:$ANDROID_SDK/tools
+export PATH=$PATH:$ANDROID_SDK/tools/bin
+export PATH=$PATH:$ANDROID_SDK/platform-tools
 
 source $ZSH_CUSTOM/antigen.zsh
 source $ZSH_CUSTOM/aliases.zsh

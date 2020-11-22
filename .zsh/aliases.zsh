@@ -35,13 +35,15 @@ alias dclean="docker stop $(docker ps -qa) && docker rm $(docker ps -qa) && dock
 
 # PINE
 alias cpine="c pine; nvm use;"
+alias cpinem="c pine-mobile; nvm use;"
 
 # WIX
-alias cpp="c app-market/membership/membership-tpa; nvm use;"
-alias cppt="c app-market/membership/membership-tpa-translations"
+alias cpp="c app-market/membership/pricing-plans-tpa; nvm use;"
+alias cppbm="c app-market/membership/pricing-plans-bm; nvm use;"
 alias cma="c app-market/members-area/members-area-app; nvm use;"
 alias cbd="c app-market/badges/members-badge-definitions-bm-client; nvm use;"
-alias csub="c app-market/subscriptions/subscriptions-bm; nvm use;"
+alias csub="c app-market/subscriptions/subscriptions-tpa; nvm use;"
+alias csubbm="c app-market/subscriptions/subscriptions-bm; nvm use;"
 alias csubt="c app-market/subscriptions/subscriptions-bm-translations"
 
 # NPM
